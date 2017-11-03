@@ -2,6 +2,13 @@
 include("settings.php");
 if(!isset($_GET['pw']) || $_GET['pw'] != $settings["adminpassword"]) die('access denied');
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ul2 Admin</title>
+</head>
+<body>
 <table class="table table-condensed table-striped" id="myfiles">
 	<thead>
 		<tr>
@@ -34,6 +41,5 @@ if($db = new SQLite3('inc/uploads.db')) {
 }
 ?>
 </tbody></table>
-
-
-
+</body>
+</html>
