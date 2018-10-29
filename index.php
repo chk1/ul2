@@ -69,7 +69,7 @@ include("settings.php");
 	<div class="container">
 		<h2>Hinweise</h2>
 		<ul>
-			<li>Dateien werden zusammen mit deiner IP <strong>IP <?= $_SERVER["REMOTE_ADDR"] ?></strong> bis zu <strong>7 Tage</strong> aufbewahrt.</li>
+			<li>Dateien werden zusammen mit deiner <strong>IP <?= $_SERVER["REMOTE_ADDR"] ?></strong> bis zu <strong>7 Tage</strong> aufbewahrt.</li>
 			<li>Die maximale Dateigröße beträgt <strong>25 MB</strong>.</li>
 			<li>Unter "Hochgeladene Dateien" stehen alle Dateien, die unter deiner <strong>IP <?= $_SERVER["REMOTE_ADDR"] ?></strong> hochgeladen wurden.</li>
 		</ul>
